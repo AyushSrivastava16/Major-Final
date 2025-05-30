@@ -46,7 +46,7 @@ const PostureDetect = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:5000/process-frame",
+          "https://major-final-tf45.onrender.com/process-frame",
           formData
         );
         setFeedback(response.data.feedback); // Receive feedback from backend
