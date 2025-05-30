@@ -31,7 +31,7 @@ const ExerciseAnalyzer = () => {
 
         try {
           const res = await axios.post(
-            `http://localhost:5000/analyze/${exercise}`,
+            `https://live-series-fc-beginners.trycloudflare.com/analyze/${exercise}`,
             {
               image: imageSrc,
             }
